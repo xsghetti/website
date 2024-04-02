@@ -1,4 +1,4 @@
-colorScheme = "blowfish"
+colorScheme = "marvel"
 defaultAppearance = "dark"
 autoSwitchAppearance = false
 enableSearch = false
@@ -66,8 +66,8 @@ showLikes = false
 showTableOfContents = false
 showCards = false
 groupByYear = true
-cardView = false
-cardViewScreenWidth = false
+cardView = true
+cardViewScreenWidth = true
 constrainItemsWidth = false
 heroStyle = "background"
 

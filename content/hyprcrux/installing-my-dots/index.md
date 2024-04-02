@@ -1,5 +1,5 @@
 ---
-title: "How to install<br>my Hyprland dotfiles"
+title: "How To Install My Hyprland Dotfiles"
 date: 2024-04-02
 draft: false
 description: "a description"
@@ -14,11 +14,11 @@ tags: ["example", "tag"]
 
 {{< timelineItem icon="github" header="Clone it!" badge="Step One" subheader="run these commands" >}}
 <ul>
-<li>git clone https://github.com/xsghetti/dotfiles && cd dotfiles</li>
-<li> cp -r ~/dotfiles/.config/* ~/.config</li>
+<code>git clone https://github.com/xsghetti/dotfiles && cd dotfiles</code>
+<br>
+<code>cp -r ~/dotfiles/.config/* ~/.config</code>
 
 {{< /timelineItem >}}
-
 
 
 
