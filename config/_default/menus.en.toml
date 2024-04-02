@@ -1,0 +1,23 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "About"
+pageRef = "/about"
+identifier = "ErgVc2Oq56"
+weight = 2
+
+[[main]]
+name = "HyprCrux"
+url = "/hyprcrux"
+identifier = "xzEwGKbrqy"
+weight = 3
+
+[[main]]
+name = "Home"
+pageRef = "/"
+identifier = "U7mJDuEa3c"
+weight = 1
+
+[[footer]]
+none = "none"

@@ -1,0 +1,18 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "xCrux"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+description = "Test"
+
+[author]
+name = "Dante Medoro"
+image = "me.jpg"
+links = [ { github = "https://github.com/xsghetti" }, { steam = "https://steamcommunity.com/profiles/76561198093255869/" } ]
+headline = "Aspiring Developer / Tinkerer"
+bio = "Documenting my journey with Hyprland, Linux, Web Development and FOSS Projects"

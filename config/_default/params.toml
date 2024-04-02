@@ -1,0 +1,104 @@
+colorScheme = "blowfish"
+defaultAppearance = "dark"
+autoSwitchAppearance = false
+enableSearch = false
+enableCodeCopy = true
+disableImageOptimization = true
+disableTextInHeader = false
+defaultBackgroundImage = "mocha.png"
+defaultFeaturedImage = "mocha.png"
+
+[header]
+layout = "fixed"
+
+[footer]
+showMenu = "enable"
+showCopyright = true
+showThemeAttribution = true
+showAppearanceSwitcher = true
+showScrollToTop = true
+
+[homepage]
+layout = "background"
+showRecent = true
+showRecentItems = 5
+showMoreLink = false
+showMoreLinkDest = "/posts"
+cardView = true
+cardViewScreenWidth = false
+layoutBackgroundBlur = true
+homepageImage = "mocha.png"
+
+[article]
+showDate = true
+showViews = false
+showLikes = false
+showDateOnlyInArticle = false
+showDateUpdated = false
+showAuthor = true
+showHero = true
+layoutBackgroundBlur = false
+layoutBackgroundHeaderSpace = false
+showBreadcrumbs = false
+showDraftLabel = true
+showEdit = false
+editAppendPath = true
+seriesOpened = false
+showHeadingAnchors = true
+showPagination = false
+invertPagination = false
+showReadingTime = true
+showTableOfContents = false
+showTaxonomies = false
+showAuthorsBadges = true
+showWordCount = false
+showZenMode = true
+heroStyle = "background"
+
+[list]
+showHero = true
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showSummary = false
+showViews = false
+showLikes = false
+showTableOfContents = false
+showCards = false
+groupByYear = true
+cardView = false
+cardViewScreenWidth = false
+constrainItemsWidth = false
+heroStyle = "background"
+
+[sitemap]
+excludedKinds = [ "taxonomy", "term" ]
+
+[taxonomy]
+showTermCount = true
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = false
+cardView = false
+
+[term]
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = true
+groupByYear = false
+cardView = false
+cardViewScreenWidth = false
+
+[firebase]
+
+[fathomAnalytics]
+
+[umamiAnalytics]
+
+[buymeacoffee]
+
+[verification]
