@@ -20,6 +20,10 @@ I chose this name for my [Hyprland](https://hyprland.org) configuration because 
 
 I switched to Linux full time rougly 3 months ago after tinkering for a few months on VM's and using my laptop as a test machine, and finally installing Arch Linux on my PC. I have been fascinated with [r/unixporn](https://reddit.com/r/unixporn/) for quite some time now, and after doing very *minimal* research I saw hyprland and knew I had to get my hands on that software.  
 
+Lets keep in mind that I've only messed with ubuntu probably about 10+ years ago. So jumping right into Arch & a *Dynamic Tiling Window Manager* many people would recommend against. Understandably so since there is basically no GUI involved, and its all configured editing text files. Unfortunately the animations, and window tiling had me sold immediately and there was no **sway**ing me other wise if you catch my drift :wink:
+
+*TLDR*: PC Aesthetic go *brrrrrr*
+
 
 
 
