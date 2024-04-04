@@ -1,5 +1,5 @@
 ---
-title: "How To Install My Hyprland Dotfiles"
+title: "HyprCrux you ask?"
 date: 2024-04-02
 draft: false
 description: "A concise guide on installing my hyprland dotfiles."
