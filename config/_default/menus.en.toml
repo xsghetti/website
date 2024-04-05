@@ -5,19 +5,25 @@ none = "none"
 name = "About"
 pageRef = "/about"
 identifier = "ErgVc2Oq56"
-weight = 2
+weight = 3
 
 [[main]]
 name = "HyprCrux"
 url = "/hyprcrux"
 identifier = "xzEwGKbrqy"
-weight = 3
+weight = 4
 
 [[main]]
 name = "Home"
 pageRef = "/"
 identifier = "U7mJDuEa3c"
 weight = 1
+
+[[main]]
+name = "Posts"
+pageRef = "/posts"
+identifier = "4ltrBNtP3i"
+weight = 2
 
 [[footer]]
 none = "none"

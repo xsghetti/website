@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="false"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=43035&amp;path=livereload" data-no-instant defer></script>
+  data-auto-appearance="false"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -8,16 +8,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Posts &middot; xCrux</title>
-  <meta name="title" content="Posts &middot; xCrux" />
+  <title>Posts &middot; xSghetti</title>
+  <meta name="title" content="Posts &middot; xSghetti" />
+  
+  <meta name="description" content="Test" />
   
   
   
+  <link rel="canonical" href="http://localhost:1313/posts/" />
+  
+  <link rel="alternate" type="application/rss+xml" href="/posts/index.xml" title="xSghetti" />
   
   
-  <link rel="canonical" href="//localhost:43035/posts/" />
-  
-  <link rel="alternate" type="application/rss+xml" href="/posts/index.xml" title="xCrux" />
   
   
   
@@ -62,12 +64,12 @@
   
   
   <meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="Test" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="//localhost:43035/posts/" />
+<meta property="og:url" content="http://localhost:1313/posts/" />
 
   <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="Test"/>
 
   
   
@@ -139,13 +141,33 @@
         <nav class="flex space-x-3">
 
             
-            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">xCrux</a>
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">xSghetti</a>
             
 
         </nav>
         <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
 
             
+            
+            
+  <a href="/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Home
+    </p>
+</a>
+
+
+            
+            
+  <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Posts
+    </p>
+</a>
+
+
             
             
   <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
@@ -288,6 +310,34 @@
 
                     
   <li class="mt-1">
+    <a href="/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Home
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Posts
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
     <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
@@ -357,6 +407,44 @@
       
 
 
+
+
+
+
+ 
+  
+   
+  
+ 
+
+
+
+<div id="hero" class="h-[150px] md:h-[200px]"></div>
+
+
+
+    
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/mocha.png);">
+    
+
+
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
+
  <header>
   
   <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Posts</h1>
@@ -407,11 +495,122 @@
 
   </section>
   
-  <section class="mt-10 prose dark:prose-invert">
-    <p class="py-8 border-t">
-      <em>There are no articles to list here yet.</em>
-    </p>
-  </section>
+
+    
+    
+    
+
+    
+
+      
+
+        
+        <div class="relative w-screen max-w-[1600px] px-[30px]" style="left: calc(max(-50vw,-800px) + 50%);">
+          <h2 class="mt-12 mb-3 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+            2024
+          </h2>
+          <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+            
+            
+
+  <a href="/posts/1712344447938-neovim/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card nozoom" style="background-image:url(/posts/1712344447938-neovim/featured.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/1712344447938-neovim/">NeoVim!</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-04-05 00:00:00 &#43;0000 UTC">5 April 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+            
+          </section>
+        </div>
+        
+
+      
+
+    
+
   
 
     
