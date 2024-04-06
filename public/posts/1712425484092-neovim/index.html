@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="false"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=43185&amp;path=livereload" data-no-instant defer></script>
+  data-auto-appearance="false"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   <meta name="keywords" content="example, tag, " />
   
   
-  <link rel="canonical" href="http://localhost:43185/posts/1712425484092-neovim/" />
+  <link rel="canonical" href="http://localhost:1313/posts/1712425484092-neovim/" />
   
   
   
@@ -64,12 +64,12 @@
   <meta property="og:title" content="Neovim?!" />
 <meta property="og:description" content="a description" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:43185/posts/1712425484092-neovim/" /><meta property="og:image" content="http://localhost:43185/posts/1712425484092-neovim/featured.png" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="http://localhost:1313/posts/1712425484092-neovim/" /><meta property="og:image" content="http://localhost:1313/posts/1712425484092-neovim/featured.png" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-04-06T00:00:00+00:00" />
 <meta property="article:modified_time" content="2024-04-06T00:00:00+00:00" />
 
   <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://localhost:43185/posts/1712425484092-neovim/featured.png" /><meta name="twitter:title" content="Neovim?!"/>
+<meta name="twitter:image" content="http://localhost:1313/posts/1712425484092-neovim/featured.png" /><meta name="twitter:title" content="Neovim?!"/>
 <meta name="twitter:description" content="a description"/>
 
   
@@ -81,9 +81,9 @@
     "name": "Neovim?!",
     "headline": "Neovim?!",
     "description": "a description",
-    "abstract": "an example to get you started",
+    "abstract": "So I\u0026rsquo;ve finally been persuaded to try out NeoVim, and man am I not disapponited.",
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:43185\/posts\/1712425484092-neovim\/",
+    "url" : "http:\/\/localhost:1313\/posts\/1712425484092-neovim\/",
     "author" : {
       "@type": "Person",
       "name": "Dante Medoro"
@@ -97,7 +97,7 @@
     "keywords": ["example","tag"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "41"
+    "wordCount": "276"
   }]
   </script>
 
@@ -510,7 +510,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-04-06 00:00:00 &#43;0000 UTC">6 April 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2024-04-06 00:00:00 &#43;0000 UTC">6 April 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.ccc8b2a0c4505216444ca25530c7328aa0bef94f43dabaf3e598e1b4271de9eec76c1cb35917471a4f7ccb8d84051b3acef42baa30724ac3a667fcf1fec4432a.js" integrity="sha512-zMiyoMRQUhZETKJVMMcyiqC&#43;&#43;U9D2rrz5ZjhtCcd6e7HbByzWRdHGk98y42EBRs6zvQrqjBySsOmZ/zx/sRDKg=="></script>
@@ -660,59 +660,37 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>an example to get you started</p>
+          <p>So I&rsquo;ve finally been persuaded to try out NeoVim, and man am I not disapponited.</p>
+<p>My mate and the developer of <em>Extremely Elaborate Elegant Calendar</em> or <a href="https://github.com/eeec-cal/eeec"   target="_blank">
+    EEEC</a> shot me over his config the other day, and within
+minutes I was already sold on neovim. Without knowing much about IDE&rsquo;s I naturally started with VSCode, as it was already preconfigured and plugins were easy to install.</p>
+<p>If you&rsquo;re not familair with <a href="https://github.com/neovim/neovim"   target="_blank">
+    Neovim</a>, it is an extremely powerful fork of Vim aimed to simplify maintenance and encourange contributions as well as
+maximize the extensibility.</p>
+<p><em>TLDR</em>: It&rsquo;s a sick terminal based text editor.</p>
+<p>So after playing around with this new neovim config for a bit, I knew I had to get started on my <strong>own</strong> config.
+There are multiple different ways to install plugins with Neovim, which made it a little challenging to figure out where I wanted to start.</p>
+<p>I started out with <a href="http://www.lazyvim.org/"   target="_blank">
+    LazyVim</a>, as I&rsquo;ve seen a lot about it before even starting my journey with neovim. It&rsquo;s a very easy install that gives you a base plugins list
+to immediately improve your neovim experience, including a theme.</p>
+<p>While LazyVim is great for someone just getting started with neovim, I felt it added a little too many plugins a little too
+quickly.</p>
 
 
-<h1 class="relative group">This is a heading 
-    <div id="this-is-a-heading" class="anchor"></div>
+<h2 class="relative group"><em>Queue lazy.nvim</em> 
+    <div id="queue-lazynvim" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#this-is-a-heading" aria-label="Anchor">#</a>
-    </span>        
-    
-</h1>
-
-
-<h2 class="relative group">This is a subheading 
-    <div id="this-is-a-subheading" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#this-is-a-subheading" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#queue-lazynvim" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-
-
-<h3 class="relative group">This is a subsubheading 
-    <div id="this-is-a-subsubheading" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#this-is-a-subsubheading" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-
-
-<h4 class="relative group">This is a subsubsubheading 
-    <div id="this-is-a-subsubsubheading" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#this-is-a-subsubsubheading" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>This is a paragraph with <strong>bold</strong> and <em>italic</em> text.
-Check more at <a href="https://blowfish.page/"   target="_blank">
-    Blowfish documentation</a>
-undefined</p>
+<p>So, it took me about 6 hours of deleting my config, and restarting to realize that LazyVim and <a href="https://github.com/folke/lazy.nvim"   target="_blank">
+    lazy.nvim</a> were two very similar, but also
+two very different things. For some clarity, LazyVim is a preconfigured neovim setup utilizing the Lazy.nvim package manager.</p>
+<p>Once I successfully installed lazy.nvim on a barebones neovim config, I finally felt like I was making some progress.</p>
 
         </div>
                 

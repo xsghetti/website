@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>xSghetti</title>
-    <link>http://localhost:43185/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on xSghetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Dante Medoro</copyright>
-    <lastBuildDate>Mon, 01 Apr 2024 17:42:57 -0400</lastBuildDate><atom:link href="http://localhost:43185/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Apr 2024 17:42:57 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Neovim?!</title>
-      <link>http://localhost:43185/posts/1712425484092-neovim/</link>
+      <link>http://localhost:1313/posts/1712425484092-neovim/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:43185/posts/1712425484092-neovim/</guid>
-      <description>an example to get you started</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:43185/posts/1712425484092-neovim/featured.png" />
+      <guid>http://localhost:1313/posts/1712425484092-neovim/</guid>
+      <description>So I&amp;rsquo;ve finally been persuaded to try out NeoVim, and man am I not disapponited.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1712425484092-neovim/featured.png" />
     </item>
     
     <item>
       <title>HyprCrux you ask?</title>
-      <link>http://localhost:43185/hyprcrux/installing-my-dots/</link>
+      <link>http://localhost:1313/hyprcrux/installing-my-dots/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:43185/hyprcrux/installing-my-dots/</guid>
+      <guid>http://localhost:1313/hyprcrux/installing-my-dots/</guid>
       <description>This is a step by step guide on using</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:43185/hyprcrux/installing-my-dots/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/hyprcrux/installing-my-dots/featured.png" />
     </item>
     
     <item>
       <title>About</title>
-      <link>http://localhost:43185/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Apr 2024 16:37:52 -0400</pubDate>
       
-      <guid>http://localhost:43185/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>whoami # Name: Dante Medoro</description>
       
     </item>
