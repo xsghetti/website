@@ -29,6 +29,6 @@ tags: ["neovim", "nvim", "IDE"]
 ## *Queue lazy.nvim*
 
 So, it took me about 6 hours of deleting my config, and restarting to realize that LazyVim and [lazy.nvim](https://github.com/folke/lazy.nvim) were two very similar, but also
-two very different things. For some clarity, LazyVim is a preconfigured neovim setup utilizing the Lazy.nvim package manager.
+two very different things. For some clarity, LazyVim is a preconfigured neovim setup utilizing the Lazy(lazy.nvim) package manager.
 
 Once I successfully installed lazy.nvim on a barebones neovim config, I finally felt like I was making some progress.
