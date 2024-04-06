@@ -1,6 +1,6 @@
 ---
-title: "NeoVim!"
-date: 2024-04-05
+title: "Neovim?!"
+date: 2024-04-06
 draft: false
 description: "a description"
 tags: ["example", "tag"]

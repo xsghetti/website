@@ -21,10 +21,10 @@ showScrollToTop = true
 [homepage]
 layout = "background"
 showRecent = true
-showRecentItems = 5
-showMoreLink = false
+showRecentItems = "5"
+showMoreLink = "enable"
 showMoreLinkDest = "/posts"
-cardView = true
+cardView = "enable"
 cardViewScreenWidth = false
 layoutBackgroundBlur = true
 homepageImage = "mocha.png"
