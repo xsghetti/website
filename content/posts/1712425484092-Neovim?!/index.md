@@ -2,8 +2,8 @@
 title: "Neovim?!"
 date: 2024-04-06
 draft: false
-description: "a description"
-tags: ["example", "tag"]
+description: "wtf is neovim?!"
+tags: ["neovim", "nvim", "IDE"]
 ---
  So I've finally been persuaded to try out NeoVim, and man am I not disapponited.
 
