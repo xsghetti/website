@@ -32,5 +32,5 @@ So, it took me about 6 hours of deleting my config, and restarting to realize th
 two very different things. For some clarity, LazyVim is a preconfigured neovim setup utilizing the Lazy(lazy.nvim) package manager.
 
 Once I successfully installed lazy.nvim on a barebones neovim config, I finally felt like I was making some progress.
-While all of the neovim plugins are ~fucking~ sweet, obviously [alphia.nvim](https://github.com/goolord/alpha-nvim) is really what us aesthetic junkies
-really want. A stylish neovim homepage that has our most common files only a single keystroke away. 
+While all of the neovim plugins are ~~fucking~~ sweet, obviously [alphia.nvim](https://github.com/goolord/alpha-nvim) is really what us aesthetic junkies
+really want. A stylish neovim homepage that has our most common files only a single keystroke away. Aside from the aesthethic aspect of it, there are so many different plugins out there that can streamline your workflow and coding processs immensely!
