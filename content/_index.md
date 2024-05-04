@@ -14,3 +14,6 @@ Greetings, Traveler!
 Here you will find documentation of my journey with Linux, Web Dev, Hyprland and other FOSS Projects.
 {{< /typeit >}}
 
+
+## Links to my [Codecademy Projects](https://xsghetti.github.io)
+
