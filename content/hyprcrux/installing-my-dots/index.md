@@ -47,9 +47,10 @@ Lets keep in mind that I've only messed with ubuntu probably about 10+ years ago
 
 {{< /timelineItem >}}
 
-{{< timelineItem icon="xmark" header="Errors?" badge="Step 3" subheader="Now you're probably encountering some errors lol" >}}
-t Now you should be running my dotfiles, but we're not quite there.<br>
+{{< timelineItem icon="xmark" header="Errors?" badge="Step Three" subheader="You're probably encountering some errors now lol" >}}
 
-{{< /timelineItem }}
+{{< /timelineItem >}}
+
+
 
 {{< /timeline >}}
