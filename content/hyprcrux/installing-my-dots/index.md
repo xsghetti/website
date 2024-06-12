@@ -50,7 +50,7 @@ Lets keep in mind that I've only messed with ubuntu probably about 10+ years ago
 {{< timelineItem icon="xmark" header="Errors?" badge="Step Three" subheader="You're probably encountering some errors now lol" >}}
 Now we get to the fun stuff!<br><br>
 
-First we're going to learn some commands.<br>    
+First we're going to learn some commands.<br><br>    
 If you're not familair with the 'super' key, its just the windows button.<br>
 Hit Super + T to enter a terminal.
 
@@ -58,7 +58,18 @@ Now is a good time to type<br>
 <code>hyprctl monitors</code>
 to get your monitor information so we can set your resolution.
 It should look a little something like this:<br>
-<img src="monitors.png">
+<img src="monitors.png"><br>
+
+It shows quite a bit of information but all we're going to focus on
+is the name and resolution.<br>
+mine shows: <code>eDP-1</code> and <code>1920x1080@144.00301</code><br>
+That's the name of the monitor, and the resolution.<br>
+
+Now we're going to navigate to our hyprland directory and set the resolution.<br><br>
+type <code>cd ~/.config/hypr</code><br>
+Open your favorite text editor, I use Neovim but for this example we're going to use nano.<br>
+type <code>nano hyprland.conf</code>
+
 
 
 {{< /timelineItem >}}
