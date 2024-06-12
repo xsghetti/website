@@ -48,15 +48,18 @@ Lets keep in mind that I've only messed with ubuntu probably about 10+ years ago
 {{< /timelineItem >}}
 
 {{< timelineItem icon="xmark" header="Errors?" badge="Step Three" subheader="You're probably encountering some errors now lol" >}}
-Now we get to the fun stuff<br>
+Now we get to the fun stuff!<br><br>
 
-First we're going to learn some commands.    
-If you're not familair with the 'super' key, its just the windows button.
+First we're going to learn some commands.<br>    
+If you're not familair with the 'super' key, its just the windows button.<br>
 Hit Super + T to enter a terminal.
 
-Now is a good time to type
+Now is a good time to type<br>
 <code>hyprctl monitors</code>
 to get your monitor information so we can set your resolution.
+It should look a little something like this:<br>
+{{< carousel images="{/monitors.png}" >}}
+
 
 {{< /timelineItem >}}
 
