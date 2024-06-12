@@ -58,7 +58,7 @@ Now is a good time to type<br>
 <code>hyprctl monitors</code>
 to get your monitor information so we can set your resolution.
 It should look a little something like this:<br>
-{{< image="{/monitors.png}" >}}
+<img src="/monitors.png">
 
 
 {{< /timelineItem >}}
