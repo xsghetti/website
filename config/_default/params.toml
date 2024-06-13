@@ -20,8 +20,8 @@ showScrollToTop = true
 
 [homepage]
 layout = "background"
-showRecent = "disable"
-showRecentItems = "0"
+showRecent = true
+showRecentItems = 12
 showMoreLink = "enable"
 showMoreLinkDest = "/posts"
 cardView = "enable"
